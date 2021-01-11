@@ -1,0 +1,34 @@
+CS is the process of [input -> problem solving -> output]
+
+Humans communicate with numbers, and specifically numeric symbols
+- computers must use ones and zeros
+- this is binary
+- it uses base 2 instead of base 10 (only two digits)
+
+So to write the number 50, and computer writes:
+- 110010 or 32+16+2
+
+We can use pre-determined patterns or mapping
+- this is known as ASCII
+- the letter "A" is the number 65, B is 66 in ASCII
+- Unicode is similar but uses more bits to describe things like emoji
+
+Another example is Red Green Blue (RGB)
+- numbers tell computer how much RGB to display
+- e.g. 72 73 33 = yellow
+
+All of these inputs and outputs can be reduced to 1s and 0s
+- these encodings are similar to sheet music, for example
+
+Bringing us to algorithms
+- step-by-step instructions for solving a problem
+
+Writing in languages
+- functions tell the computer what to do
+- conditions are branches or forks (decision points)
+- questions are boolean expressions (Y/N or T/F or 1/0 answers)
+- loops are cycles that repeat
+- variables can be stored
+
+Programming Language example:
+- scratch.mit.edu
