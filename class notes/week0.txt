@@ -32,3 +32,7 @@ Writing in languages
 
 Programming Language example:
 - scratch.mit.edu
+
+"Good Code"
+- incorporate reusability
+- define snippets of code to reuse

@@ -1,0 +1,76 @@
+Week 1: C
+
+Goals:
+- correct (it works)
+- efficient code (don't do more work than necessary)
+- style (readability)
+
+CS50 IDE
+- ide.cs50.io
+
+New File
+- hello.c
+- dot c is the syntax
+
+#include <stdio.h>
+int main(void)
+{
+    printf("hello, world");
+}
+
+Compiler will translate source code to machine code
+- "Make" in the Idea
+
+Functions take Arguments
+- example: printf("hello, world");
+            f^       a^
+
+Code can also return values
+- data to be recalled
+- "variables"
+- programmer must do something with those values
+- libraries make this easy
+- example: answer = get_string("What's your name?");
+- equals sign means copy what's on right to what's on left
+- semicolon signals end of line
+
+More examples:
+- printf("hello, %s", answer);
+- %s means string
+- comma separates arguments from each other
+
+#include <stdio.h>
+#include <cs50.h>
+int main(void)
+{
+    string answer = get_string("what's your name? ");
+    printf("hello, %s", answer);
+}
+
+Escape Characters
+- /n means move cursor to next line
+- otherwise cursor lives at end of string
+
+Starting code
+- int main(void)
+  {
+
+  }
+- this is just boilerplate starting code for C programs
+- also can add libraries with #include
+- stdio.h is a way to get input/output
+- called a "header"
+
+Identifying Problems
+- help50 debugs complier
+- style50 reviews writing style
+- check50 will check the correctness of code
+
+Writing C
+- define variable with equals sign
+- note: equals sign is the assignment operator
+- define data type
+- end "thought" with semicolon
+- ex: int counter = 0;
+- syntatic sugar: counter+ = 1; will add one
+- note: counter++; also adds one
